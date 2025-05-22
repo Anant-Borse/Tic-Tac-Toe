@@ -1,0 +1,59 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #663dff;
+  text-align: center;
+  margin-top: 50px;
+}
+.game-container {
+  display: inline-block;
+}
+h1 {
+  margin-bottom: 10px;
+}
+#status {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+button {
+  margin-top: 10px;
+}
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(238, 156, 23);
+}
+.cell {
+  width: 150px;
+  height: 150px;
+  background-color: #c93efe;
+  border: 3px ridge#3E73FE;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.cell:hover {
+  background-color: #e2cc24;
+}
+#restart {
+  padding: 10px 20px;
+  font-size: medium;
+  cursor: pointer;
+  /* color: #05f19e; */
+  background-color: #72ef76;
+}
+button:hover {
+  box-shadow: #c93efe;
+}
+.x-color {
+  color: #4d1cff;
+}
+.o-color {
+  color: #4d1cff;
+}
